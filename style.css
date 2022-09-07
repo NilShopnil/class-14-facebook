@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.header{
+    background: #F0F2F5;
+    padding: 150px 0 250px;
+}
+
+.container{
+    max-width: 1040px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.facebook__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.facebook__left{
+    width: 500px;
+}
+
+.facebook__logo{
+    width: 304px;
+    height: 107px;
+    margin: -28px;
+}
+
+.facebook__logo-main{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.facebook__text{
+    font-size: 28px;
+    line-height: 32px;
+    color: #1c1e21;
+    width: 500px;
+    margin-top: 16px;
+}
+
+.facebook__registration{
+    width: 395px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.hidden{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.facebook__input{
+    width: 100%;
+    display: block;
+    padding: 14px 16px;
+    font-size: 17px;
+    color: #1d2129;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.facebook__Log-in{
+    background: #1877f2;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 48px;
+    border-radius: 6px;
+    padding: 0 16px;
+    border: none;
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+.facebook__Log-in:hover{
+    cursor: pointer;
+}
+
+.facebook__forgot{
+    display: table;
+    margin: 16px auto 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1877f2;
+    text-decoration: none;
+}
+.facebook__forgot:hover{
+    text-decoration: underline;
+}
+.facebook__hr{
+    height: 1px;
+    background: #dadde1;
+    border: none;
+    margin: 16px 0;
+}
+.facebook__create-button{
+    background: #42b72a;
+    color: #ffffff;
+    display: table;
+    margin: auto;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    font-weight: bold;
+    margin: 20px auto 5px;
+}
+.facebook__create-button:hover{
+    cursor: pointer;
+}
+.facebook__create-page{
+    font-size: 14px;
+    color: #1c1e21;
+    text-align: center;
+    margin-top: 28px;
+}
+.facebook__create-link{
+    font-weight: 600;
+    color: #1c1e21;
+}
